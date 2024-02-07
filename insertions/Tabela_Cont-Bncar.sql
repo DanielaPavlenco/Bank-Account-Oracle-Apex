@@ -1,0 +1,5 @@
+INSERT INTO CONT_BANCAR (Cont_Id, Banca_Id, Client_Id, Tip_Cont, Sold, Data_Deschiderii, Status) VALUES (1, 1, 1, 'Economii', 1000, TO_DATE('01-01-2022', 'DD-MM-YYYY'), 'Activ');
+INSERT INTO CONT_BANCAR (Cont_Id, Banca_Id, Client_Id, Tip_Cont, Sold, Data_Deschiderii, Status) VALUES (2, 2, 2, 'Curent', 500, TO_DATE('01-02-2022', 'DD-MM-YYYY'), 'Inactiv');
+INSERT INTO CONT_BANCAR (Cont_Id, Banca_Id, Client_Id, Tip_Cont, Sold, Data_Deschiderii, Status) VALUES (3, 3, 3, 'Depozit', 10000, TO_DATE('05-07-2022', 'DD-MM-YYYY'), 'Pasiv');
+INSERT INTO CONT_BANCAR (Cont_Id, Banca_Id, Client_Id, Tip_Cont, Sold, Data_Deschiderii, Status) VALUES (4, 4, 4, 'Credit', 15000, TO_DATE('25-11-2023', 'DD-MM-YYYY'), 'Activ');
+INSERT INTO CONT_BANCAR (Cont_Id, Banca_Id, Client_Id, Tip_Cont, Sold, Data_Deschiderii, Status) VALUES (5, 5, 5, 'Loro', 25000, TO_DATE('02-11-2023', 'DD-MM-YYYY'), 'Activ');
